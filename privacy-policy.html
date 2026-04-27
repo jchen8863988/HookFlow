@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — HookFlow</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --text: #0b1220;
+        --muted: #3b4a63;
+        --bg: #ffffff;
+        --card: #f6f8fc;
+        --border: rgba(15, 23, 42, 0.12);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --text: #eef2ff;
+          --muted: #b8c0d6;
+          --bg: #0b1020;
+          --card: #121a33;
+          --border: rgba(238, 242, 255, 0.12);
+        }
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji",
+          "Segoe UI Emoji";
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.55;
+      }
+      main {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 28px 18px 60px;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 0 0 8px;
+        letter-spacing: -0.02em;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 14px;
+        margin: 0 0 22px;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 26px 0 10px;
+      }
+      p,
+      li {
+        font-size: 15px;
+        color: var(--text);
+      }
+      ul {
+        padding-left: 18px;
+      }
+      .callout {
+        border: 1px solid var(--border);
+        background: var(--card);
+        border-radius: 14px;
+        padding: 14px 14px;
+        margin: 14px 0;
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 13px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 12px 0 18px;
+        font-size: 14px;
+      }
+      th,
+      td {
+        border: 1px solid var(--border);
+        padding: 10px 10px;
+        vertical-align: top;
+      }
+      th {
+        text-align: left;
+        background: var(--card);
+      }
+      a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+      footer {
+        margin-top: 34px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        <strong>Effective date:</strong> <span id="effective-date">[LAST_UPDATED]</span><br />
+        <strong>Controller:</strong> <span id="controller">[LEGAL_ENTITY_OR_DEVELOPER_NAME]</span><br />
+        <strong>App:</strong> HookFlow
+      </p>
+
+      <div class="callout">
+        <p style="margin: 0">
+          This Privacy Policy describes how HookFlow (“<strong>we</strong>”, “<strong>us</strong>”) collects, uses, stores,
+          and shares information when you use the HookFlow mobile application (“<strong>App</strong>”). It is designed to
+          align with Apple App Review expectations and common privacy laws (including GDPR-style transparency for EU
+          users). If you do not agree, please do not use the App.
+        </p>
+      </div>
+
+      <h2>1) Summary</h2>
+      <ul>
+        <li>
+          HookFlow helps you ideate and structure short-form marketing content. Some features can call a
+          <strong>backend server URL you configure</strong> and optional <strong>AI providers</strong> (e.g., OpenAI
+          and/or Google Gemini) when you enable cloud features.
+        </li>
+        <li>
+          By default, much of your content (drafts, consent choices, local job history) is stored
+          <strong>on-device</strong>. Analytics and personalization are <strong>optional</strong> and gated behind
+          in-app consent.
+        </li>
+        <li>
+          If you enable “public insights” features, the App may send configuration (keywords, optional App Store app id,
+          source toggles) to your configured backend to fetch <strong>public</strong> signals from third-party sources
+          you select.
+        </li>
+      </ul>
+
+      <h2>2) Information we collect</h2>
+      <p>We collect information in the following categories, depending on how you use the App:</p>
+
+      <h2>2.1 Information you provide</h2>
+      <ul>
+        <li>
+          <strong>Creative inputs</strong>: text you enter (e.g., app name, audience, pain points, template selections).
+        </li>
+        <li>
+          <strong>Backend configuration</strong>: the backend base URL and optional authentication token you save in
+          the App (stored locally on your device).
+        </li>
+        <li>
+          <strong>Public insights configuration</strong>: keywords, optional App Store app id, and toggles for public
+          data sources (stored locally and may be transmitted to your configured backend when enabled).
+        </li>
+        <li>
+          <strong>Photos / screen recordings</strong>: if you choose to import media from your photo library for
+          preview/export, the App accesses only the items you select through the system picker.
+        </li>
+      </ul>
+
+      <h2>2.2 Information collected automatically</h2>
+      <ul>
+        <li>
+          <strong>Diagnostics and usage (optional)</strong>: if you opt in to analytics in the App’s privacy choices, we
+          may collect limited usage events to understand feature usage. If you do not opt in, we do not collect
+          analytics events in the default configuration described here.
+        </li>
+        <li>
+          <strong>Crash data</strong>: if you use Apple’s crash reporting or third-party crash tools in the future, that
+          collection must be disclosed separately in App Store Connect and here. (If not enabled, none is collected by
+          HookFlow itself.)
+        </li>
+      </ul>
+
+      <h2>2.3 Information from third parties</h2>
+      <p>
+        When you use cloud features, your configured backend may retrieve or process information from third-party
+        services you enable, such as:
+      </p>
+      <ul>
+        <li>Google Gemini / OpenAI-compatible APIs (when configured on the server)</li>
+        <li>Public web sources (e.g., Reddit, Hacker News, App Store RSS, X) when enabled</li>
+      </ul>
+      <p>
+        Those services are independent controllers/processors with their own policies. We do not control their data
+        practices.
+      </p>
+
+      <h2>3) How we use information</h2>
+      <p>We use information to:</p>
+      <ul>
+        <li>Provide core App functionality (templates, previews, exports, job tracking)</li>
+        <li>Operate optional cloud features you request (AI generation, competitor-style analysis)</li>
+        <li>Improve the product when you opt in to analytics/personalization</li>
+        <li>Comply with law and enforce our terms</li>
+      </ul>
+
+      <h2>4) Legal bases (EEA/UK users)</h2>
+      <p>Where GDPR applies, we rely on:</p>
+      <ul>
+        <li><strong>Contract / necessity</strong>: to provide the App features you request</li>
+        <li><strong>Consent</strong>: for optional analytics/personalization and certain optional data processing you enable</li>
+        <li><strong>Legitimate interests</strong>: to secure the App, prevent abuse, and improve reliability (balanced against your rights)</li>
+      </ul>
+
+      <h2>5) Sharing and processors</h2>
+      <p>We may share information with:</p>
+      <ul>
+        <li>
+          <strong>Your configured backend</strong>: anything you send to your server URL is under your (or your
+          operator’s) control.
+        </li>
+        <li>
+          <strong>AI providers</strong>: prompts and related job payloads may be processed by providers such as
+          <strong>Google Gemini</strong> and/or <strong>OpenAI</strong> when your server is configured to call them.
+        </li>
+        <li>
+          <strong>Public data sources</strong>: when enabled, your backend may fetch public posts/pages/feeds according
+          to your configuration.
+        </li>
+        <li>
+          <strong>Apple</strong>: standard App Store distribution and platform services are subject to Apple’s privacy
+          policy.
+        </li>
+      </ul>
+
+      <h2>6) Data retention</h2>
+      <ul>
+        <li>
+          <strong>On-device data</strong> remains until you delete the App, clear app data (where supported), or use
+          in-app controls (e.g., clearing local job history).
+        </li>
+        <li>
+          <strong>Server-side retention</strong> (if you operate a backend) is determined by your server configuration
+          and hosting provider.
+        </li>
+      </ul>
+
+      <h2>7) Security</h2>
+      <p>
+        We use reasonable technical and organizational measures appropriate to the nature of the App. No method of
+        transmission or storage is 100% secure.
+      </p>
+
+      <h2>8) Your rights and choices</h2>
+      <ul>
+        <li>
+          <strong>Withdraw consent</strong>: use the App’s privacy choices screen to disable optional processing where
+          available.
+        </li>
+        <li>
+          <strong>Access / deletion</strong>: for purely on-device data, uninstalling the App or clearing app data is
+          the most complete deletion path on many devices.
+        </li>
+        <li>
+          <strong>EEA/UK rights</strong>: you may have rights to access, rectify, erase, restrict, object, and port
+          data. Contact us at <a href="mailto:[CONTACT_EMAIL]">[CONTACT_EMAIL]</a>.
+        </li>
+      </ul>
+
+      <h2>9) Children’s privacy</h2>
+      <p>
+        HookFlow is not directed to children under 13 (or the minimum age required in your jurisdiction). Do not use
+        the App if you are not old enough to consent where required.
+      </p>
+
+      <h2>10) International transfers</h2>
+      <p>
+        If you use cloud features, your information may be processed in countries where your AI provider and/or hosting
+        services operate. When required, appropriate safeguards (such as standard contractual clauses) may be used by
+        your chosen providers.
+      </p>
+
+      <h2>11) App Tracking Transparency (ATT)</h2>
+      <p>
+        HookFlow does not require cross-app tracking for core functionality as described in this policy. If a future
+        version introduces tracking (as defined by Apple), we will request permission through Apple’s App Tracking
+        Transparency framework where required and update this policy accordingly.
+      </p>
+
+      <h2>12) Data Collection Summary (App Store Privacy “Nutrition Labels” alignment)</h2>
+      <p>
+        The table below is a disclosure aid. You must ensure your answers in App Store Connect match your actual build.
+        Replace “Yes/No” as needed before publishing.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Collected?</th>
+            <th>Linked to user?</th>
+            <th>Used for tracking?</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>User Content (text inputs, selected media)</td>
+            <td>Yes (if you use the feature)</td>
+            <td>Yes (on-device; may be sent to your configured backend)</td>
+            <td>No (default)</td>
+            <td>App functionality, optional cloud generation/export</td>
+          </tr>
+          <tr>
+            <td>Identifiers (device/job identifiers generated locally)</td>
+            <td>Yes (local job ids)</td>
+            <td>Not typically</td>
+            <td>No</td>
+            <td>App functionality (job tracking)</td>
+          </tr>
+          <tr>
+            <td>Diagnostics (optional analytics)</td>
+            <td>Only if you opt in</td>
+            <td>As configured</td>
+            <td>No (unless you explicitly implement tracking)</td>
+            <td>Analytics (optional)</td>
+          </tr>
+          <tr>
+            <td>Network usage / error logs on your backend</td>
+            <td>If you operate a server</td>
+            <td>Depends on your logging</td>
+            <td>Depends on your implementation</td>
+            <td>Operated by you/your backend provider</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>13) Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy when features change. We will post the updated policy at this URL and update
+        the effective date. Material changes may also be communicated in-app where appropriate.
+      </p>
+
+      <h2>14) Contact</h2>
+      <p>
+        Questions or privacy requests:
+        <a href="mailto:[CONTACT_EMAIL]">[CONTACT_EMAIL]</a><br />
+        Website (optional): <a href="[SUPPORT_OR_WEBSITE_URL]">[SUPPORT_OR_WEBSITE_URL]</a>
+      </p>
+
+      <footer>
+        <p>
+          <strong>Note for the developer before App Store submission:</strong> Replace all bracketed placeholders
+          (<code>[LAST_UPDATED]</code>, <code>[LEGAL_ENTITY_OR_DEVELOPER_NAME]</code>, <code>[CONTACT_EMAIL]</code>,
+          <code>[SUPPORT_OR_WEBSITE_URL]</code>), ensure this page is hosted on <strong>HTTPS</strong>, and ensure App
+          Store Connect privacy answers match the shipped build.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
